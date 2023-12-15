@@ -1,0 +1,16 @@
+{
+    "name": "guerra/cursos",
+    "description": "Manejo de usuarios y cursos con PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guerra\\Cursos\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "fpdf/fpdf": "dev-master",
+        "dompdf/dompdf": "dev-master"
+    }
+}
